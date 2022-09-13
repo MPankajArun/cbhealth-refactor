@@ -9,3 +9,11 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+I have refactored the code in following ways:
+1. Written a separate getHashDigest() method to get the Hash Digest based on input.js
+2. Removed unnecessary if condition for the case where partitionKey is present.
+3. Used Ternary operator to cater multiple cases when partitionKey is present.
+4. Set the initial value for return if event is not given.
+5. Written test cases for different scenarios. 
+6.  
